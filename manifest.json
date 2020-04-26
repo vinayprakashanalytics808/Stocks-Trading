@@ -3625,7 +3625,7 @@
       "checksum": "9d947d2dc7696db97a558c80f1c6eecd"
     },
     "data_wrangling.R": {
-      "checksum": "11d3da4db30fffd633c5de0e1825b57b"
+      "checksum": "895a4ea0e862756aa498606352d5a99e"
     },
     "packrat/desc/alphavantager": {
       "checksum": "34db458151581b8d03c04e759a09638a"
@@ -4042,7 +4042,7 @@
       "checksum": "53c4521ea1fd9ca8ed5e4153095f3b49"
     },
     "ui.R": {
-      "checksum": "3c10f34e9be5b17acac7335b62699348"
+      "checksum": "5331de199fb2a6d0491fcf464d672869"
     },
     "www/app.css": {
       "checksum": "d41d8cd98f00b204e9800998ecf8427e"
