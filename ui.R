@@ -7,6 +7,7 @@ library(readxl)
 library(rAmCharts)
 library(dplyr)
 library(tidyverse)
+library(stringr)
 
 # Define UI for application that draws a histogram
 navbarPage("Trading Analysis",position = "fixed-top",fluid = TRUE,id = "Main",
