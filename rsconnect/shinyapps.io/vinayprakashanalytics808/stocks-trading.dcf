@@ -5,6 +5,8 @@ account: vinayprakashanalytics808
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2188141
-bundleId: 3066776
+bundleId: 3066820
 url: https://vinayprakashanalytics808.shinyapps.io/stocks-trading/
-when: 1587900210.28456
+when: 1587901346.71535
+asMultiple: FALSE
+asStatic: FALSE

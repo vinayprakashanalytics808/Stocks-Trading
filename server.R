@@ -12,7 +12,7 @@ output$measures <- renderUI({
     if(input$ticker == ""){
       return()
     } else {
-      radioButtons("measure","Measures",choices = c("Low", "High", "Close", "Open"),selected = "Low")
+      radioButtons("measure","Measures",choices = c("All","low", "high", "close", "open"),selected = "All")
     }
   })
 
@@ -70,7 +70,13 @@ observeEvent(input$button,{
 
 output$ts <- renderAmCharts({
   storage$plot$date <- as.POSIXct(storage$plot$date)
-  amTimeSeries(storage$plot, 'date', c('low','high','open','close'))
+  
+  if(input$measure == "All"){
+    amTimeSeries(storage$plot, 'date', c('low','high','open','close'))
+  }
+  else {
+    amTimeSeries(storage$plot, 'date', c(input$measure))
+  }
 })
 
 
